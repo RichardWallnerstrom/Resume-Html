@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    background-color: #000000cf;
+    color: rgb(177, 166, 133);
+}
+main {
+    margin-left: 220px; 
+    padding: 20px 0px 0px 0px; 
+}
+h1 {
+    color: rgb(160, 204, 160);
+    text-shadow: 3px 5px 1px #000000;
+    text-decoration: solid;
+    margin-left: 100px;
+}
+h2 {
+    color: rgba(248, 248, 205, 0.822);
+    text-shadow: 2px 3px 3px #000000;
+    text-decoration: solid;
+}
+p {
+    text-shadow: 2px 2px 3px #000000;
+    text-decoration: solid;
+}
+.topBar {
+    display: flex;
+    box-shadow: 2px 5px 8px 1px black;
+    border: 5px solid black;
+    border-radius: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    width: 100%;
+    background-color: #0d2f00; 
+    color: white; 
+    padding: 10px; 
+    justify-content: center ;
+    z-index: 1000;
+}
+.rightBar {
+    padding: 20px; 
+    margin: 100px 0 0 0;
+}
+.leftBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 200px; 
+    background-color: #8888885f; 
+    color: white;
+    box-shadow: 2px 7px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+
+}
+.image-container {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px; 
+    box-shadow: 10px 10px 30px 11px black;
+    border-radius: 49%; 
+    border: 3px solid black; 
+    overflow: hidden; /* Clip the content inside the circular border */
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    min-width: 100%;
+    max-width: 100%; 
+    position: relative;
+    width: 100px;
+    top: 10px;
+    left: 1px;
+    filter: brightness(1.1);
+}
+footer {
+    font-size: 2rem;
+}
+a, span {
+    text-decoration: none;
+    color: rgb(222, 255, 137);
+    text-shadow: 3px 5px 1px #000000;
+    text-decoration: solid;
+    font-size: 20px;
+    margin-left: 1%;
+}
+a :hover {
+    text-decoration: none;
+    color: rgb(143, 107, 254);
+    text-shadow: 3px 5px 10px 20px #000000;
+    font-size: 23px;
+}
+a :active {
+    text-decoration: none;
+    color: rgb(204, 177, 160);
+    text-shadow: 3px 5px 1px #000000;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+ 
+a :visited {
+    text-decoration: none;
+    color: rgb(160, 204, 160);
+    text-shadow: 3px 5px 1px #000000;
+    text-decoration: solid;
+    font-size: 20px;
+}
